@@ -63,7 +63,7 @@ window.addEventListener('load', () => {
                 animationDuration: 1
             },
             animation: {
-            duration: 1,
+            duration: 1000,
             onComplete: function () {
                 var chartInstance = this.chart,
                     ctx = chartInstance.ctx;
