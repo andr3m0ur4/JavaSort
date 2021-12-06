@@ -1,5 +1,5 @@
 window.onload = () => {
-    document.getElementById('panel-chart').classList.add('hidden')
+    
 }
 
 const filter = select => {
