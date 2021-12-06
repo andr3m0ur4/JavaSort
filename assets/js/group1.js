@@ -10,8 +10,8 @@ window.addEventListener('load', () => {
             datasets: [ {
                 label: "Tempo em Segundos",
                 backgroundColor: [
-                    'rgba(220,57,18,0.5)', 
-                    'rgba(255,153,0,0.5)', 
+                    'rgba(220,57,18,0.5)',
+                    'rgba(0,153,198,0.5)',
                     'rgba(16,150,24,0.5)',
                     'rgba(153,0,153,0.5)',
                     'rgba(59,62,172,0.5)',
@@ -34,7 +34,7 @@ window.addEventListener('load', () => {
                 borderWidth: 2,
                 borderColor: [
                     'rgb(220,57,18)',
-                    'rgb(255,153,0)',
+                    'rgb(0,153,198)',
                     'rgb(16,150,24)',
                     'rgb(153,0,153)',
                     'rgb(59,62,172)',
@@ -103,8 +103,8 @@ window.addEventListener('load', () => {
             datasets: [ {
                 label: "Tempo em segundos",
                 backgroundColor: [
-                    'rgba(220,57,18,0.5)', 
-                    'rgba(255,153,0,0.5)', 
+                    'rgba(220,57,18,0.5)',
+                    'rgba(0,153,198,0.5)',
                     'rgba(16,150,24,0.5)',
                     'rgba(153,0,153,0.5)',
                     'rgba(59,62,172,0.5)',

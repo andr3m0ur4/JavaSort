@@ -16,7 +16,7 @@ public class Main {
         int[] array = generateArray(10000000, 1000);
 
         // sort(array);
-        // asort(array);
+         asort(array);
 
 		imprimir(array);
 		
@@ -26,8 +26,8 @@ public class Main {
 		// BubbleSort.ordenar(array, 0, array.length);
         // SelectionSort.ordenar(array, 0, array.length);
         // InsertionSort.ordenar(array, 0, array.length);
-        Arrays.sort(array, 0, array.length);
-        // MergeSort.ordenar(array, 0, array.length);
+        //Arrays.sort(array, 0, array.length);
+        MergeSort.ordenar(array, 0, array.length);
         // QuickSort.ordenar(array, 0, array.length);
 
         Instant end = Instant.now();
