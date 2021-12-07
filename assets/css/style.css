@@ -31,3 +31,9 @@
 .description {
     font-size: 17pt;
 }
+
+@media (max-width: 750px) {
+    .block {
+        width: 96% !important;
+    }
+}
